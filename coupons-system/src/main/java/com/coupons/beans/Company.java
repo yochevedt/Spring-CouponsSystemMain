@@ -18,18 +18,19 @@ public class Company {
 	
 	@Id
 	@GeneratedValue
+	@Column (nullable = false, name = "id")
 	private long id;
 	
 	@Basic (optional  = false)
-	@Column(nullable = false)
+	@Column(nullable = false, name = "companyName")
 	private String companyName;
 	
 	@Basic (optional  = false)
-	@Column(nullable = false)
+	@Column(nullable = false, name = "password")
 	private String password;
 	
 	@Basic (optional  = false)
-	@Column(nullable = false)
+	@Column(nullable = false, name = "email")
 	private String email;
 
 	public long getId() {
