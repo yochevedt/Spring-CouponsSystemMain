@@ -1,0 +1,11 @@
+*********************************************************
+this package will contain the basic beans in the system:
+---Coupon.class
+---Company.class
+---Customer.class
+---CouponType.class
+
+
+
+
+*********************************************************
